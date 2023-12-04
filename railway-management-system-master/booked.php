@@ -20,7 +20,7 @@ echo "<tr><td>".$row[0]."</td><td>".$row[1]."</td><td>".$row[2]."</td><td>".$row
 
 echo "</table>";
 
-echo "<br> <a href=\"http://localhost/railway/admin_login.php\">Go Back to Admin Menu!!!</a> ";
+echo "<br> <a href=\"admin_login.php\">Go Back to Admin Menu!!!</a> ";
 
 $conn->close();
 ?>
