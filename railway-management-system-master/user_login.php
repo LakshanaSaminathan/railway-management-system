@@ -54,7 +54,7 @@ $_SESSION["id"]=$temp2;
 if(mysqli_num_rows($query) == 0)
 {
  echo "Wrong Combination!!! <br><br> ";
- echo " <a href=\"http://localhost/railway/index.htm\">Home Page</a><br>";
+ echo " <a href=\"index.htm\">Home Page</a><br>";
  die();
 }
 
@@ -66,7 +66,7 @@ Enter PNR for Cancellation: <input type="text" name="cancpnr" required><br><br>
 </form>
 <?php
 
-echo " <a href=\"http://localhost/railway/index.htm\">Home Page</a><br>";
+echo " <a href=\"index.htm\">Home Page</a><br>";
 
 $conn->close(); 
 
