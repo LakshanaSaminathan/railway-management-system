@@ -72,6 +72,6 @@ Date of Journey: <input type="date" name="doj" required><br>
 <input type="submit">
 
 </form>
-<br><br><a href="http://localhost/railway/index.htm">Go to Home Page!!!</a>
+<br><br><a href="index.htm">Go to Home Page!!!</a>
 </body>
 </html>
