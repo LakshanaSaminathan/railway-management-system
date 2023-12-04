@@ -48,11 +48,11 @@ No. of Seats: <input type="text" name="nos" required><br><br>
 
 <?php
 
-echo " <a href=\"http://localhost/railway/enquiry.php\">More Enquiry</a> <br>";
+echo " <a href=\"enquiry.php\">More Enquiry</a> <br>";
 
 $conn->close(); 
 ?>
 
-<br><a href="http://localhost/railway/index.htm">Go to Home Page!!!</a>
+<br><a href="index.htm">Go to Home Page!!!</a>
 </body>
 </html>
