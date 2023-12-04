@@ -59,8 +59,8 @@ $temp+=1;
 }
 echo "</table>";
 
-echo " <br><a href=\"http://localhost/railway/show_trains.php\">Go Back to Train Menu!!!</a><br> ";
-echo " <br><a href=\"http://localhost/railway/admin_login.php\">Go Back to Admin Menu!!!</a> ";
+echo " <br><a href=\"show_trains.php\">Go Back to Train Menu!!!</a><br> ";
+echo " <br><a href=\"admin_login.php\">Go Back to Admin Menu!!!</a> ";
 ?>
 </body>
 </html>
