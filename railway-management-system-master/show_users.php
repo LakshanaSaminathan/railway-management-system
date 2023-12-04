@@ -24,8 +24,8 @@ while ($cdrow=mysqli_fetch_array($cdresult))
 }
 echo "</table>";
 
-echo " <br><a href=\"http://localhost/railway/new_user_form.html\"> Add New User </a><br> ";
-echo " <br><a href=\"http://localhost/railway/admin_login.php\">Go Back to Admin Menu!!!</a> ";
+echo " <br><a href=\"new_user_form.html\"> Add New User </a><br> ";
+echo " <br><a href=\"admin_login.php\">Go Back to Admin Menu!!!</a> ";
 ?>
 </body>
 </html>
