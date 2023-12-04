@@ -19,11 +19,11 @@ $sql = "INSERT INTO user (password,emailid,mobileno,dob) VALUES ('".$pwd."','".$
 
 if ($conn->query($sql) === TRUE) 
 {
- echo "Hi $eid, <a href=\"http://localhost/railway/index.htm\"> Click here </a> to browse through our website!!! " ;
+ echo "Hi $eid, <a href=\"index.htm\"> Click here </a> to browse through our website!!! " ;
 } 
 else 
 {
- echo "Error:" . $conn->error. "<br> <a href=\"http://localhost/railway/new_user_form.htm\">Go Back to Login!!!</a> ";
+ echo "Error:" . $conn->error. "<br> <a href=\"new_user_form.htm\">Go Back to Login!!!</a> ";
 }
 
 $conn->close(); 
