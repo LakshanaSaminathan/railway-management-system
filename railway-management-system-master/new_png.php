@@ -103,7 +103,7 @@ else
 //echo "Enter Passanger Gender: <input type='text' name='pgender[]' required> <br> ";
 }
 
-echo "<br><br><a href=\"http://localhost/railway/index.htm\">Go Back!!!</a> <br>";
+echo "<br><br><a href=\"index.htm\">Go Back!!!</a> <br>";
 
 $conn->close(); 
 ?>
