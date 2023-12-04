@@ -32,7 +32,7 @@ echo "</table>";
 Add Station : <input type="text" name="sname" placeholder=" New Station" required>
 <input type="submit" value="Add"></span>
 <?php
-echo "<br><br> <a href=\"http://localhost/railway/admin_login.php\">Go Back to Admin Menu!!!</a> ";
+echo "<br><br> <a href=\"admin_login.php\">Go Back to Admin Menu!!!</a> ";
 ?>
 </body>
 </html>
