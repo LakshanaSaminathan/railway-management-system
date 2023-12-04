@@ -28,7 +28,7 @@ else{
 	}
 }
 
-echo "<br> <a href=\"http://localhost/railway/admin_login_1.php\">Go Back to Admin Menu!!!</a> ";
+echo "<br> <a href=\"admin_login_1.php\">Go Back to Admin Menu!!!</a> ";
 
 $conn->close();
 ?>
