@@ -49,7 +49,7 @@ for($i=0;$i<$_SESSION["nos"];$i++)
 if($temp==0)
 {
  echo "<br><br>Atleast one adult must accompany!!!";
- echo "<br><br><a href=\"http://localhost/railway/enquiry.php\">Back to Enquiry</a> <br>";
+ echo "<br><br><a href=\"enquiry.php\">Back to Enquiry</a> <br>";
  die();
 }
 
