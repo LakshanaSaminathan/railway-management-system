@@ -26,7 +26,7 @@ $query = mysqli_query($conn,"SELECT * FROM user WHERE user.mobileno=$mobile AND 
 if(mysqli_num_rows($query) == 0)
 {
  echo "No such login !!! <br> ";
- echo " <br><a href=\"http://localhost/railway/enquiry_result.php\">Go Back!!!</a> <br>";
+ echo " <br><a href=\"enquiry_result.php\">Go Back!!!</a> <br>";
  die();
 }
 
@@ -56,7 +56,7 @@ echo "</table>";
 //Enter Train No: <input type="text" name="tno" required><br>
 //Enter Class: <input type="text" name="class" required><br>
 
-echo "<a href=\"http://localhost/railway/enquiry.php\">Back to Enquiry</a>";
+echo "<a href=\"enquiry.php\">Back to Enquiry</a>";
 
 $conn->close(); 
 
