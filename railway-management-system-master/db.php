@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="style.css" />
 <?php
-$servername = "localhost";
-$username = "add your sql username here";
-$password = "add your sql password here";
+$servername = "lakshana.mysql.database.azure.com";
+$username = "lakshana";
+$password = "sami@2003";
 $dbname = "railway";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
