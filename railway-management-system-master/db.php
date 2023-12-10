@@ -2,7 +2,7 @@
 <?php
 $servername = "lakshana.mysql.database.azure.com";
 $username = "lakshana";
-$password = "sami@2003";
+$password = "password@123";
 $dbname = "railway";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
