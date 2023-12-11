@@ -98,7 +98,7 @@ echo "</select></td>
 ";
 }
 
-echo "<br> <a href=\"http://localhost/railway/admin_login.php\">Go Back to Admin Menu!!!</a> ";
+echo "<br> <a href=\"admin_login.php\">Go Back to Admin Menu!!!</a> ";
 
 ?>
 
