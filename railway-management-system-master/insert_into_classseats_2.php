@@ -18,7 +18,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
-echo "<br><br><a href=\"http://localhost/railway/admin_login.php\">Go Back to Admin Menu!!!</a> ";
+echo "<br><br><a href=\"admin_login.php\">Go Back to Admin Menu!!!</a> ";
 
 $conn->close();
 ?>
