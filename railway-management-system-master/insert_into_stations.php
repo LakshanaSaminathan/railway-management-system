@@ -21,7 +21,7 @@ while ($cdrow=mysqli_fetch_array($cdresult))
 {
  $cdId=$cdrow['id'];$cdTitle=$cdrow['sname'];
 	echo "
-<tr><td>$cdId</td>\t\t<td>$cdTitle</td>\t\t<td><a href=\"http://localhost/railway/edit_station.php?id=".$cdId."\"><button>Edit</button></a></td>\t\t<td><a href=\"http://localhost/railway/delete_station.php?id=".$cdId."\"><button>Delete</button></a></td></tr>
+<tr><td>$cdId</td>\t\t<td>$cdTitle</td>\t\t<td><a href=\"http://localhost/railway/edit_station.php?id=".$cdId."\"><button>Edit</button></a></td>\t\t<td><a href=\"delete_station.php?id=".$cdId."\"><button>Delete</button></a></td></tr>
 ";
 }
 echo "</table>";
