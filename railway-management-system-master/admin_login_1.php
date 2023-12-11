@@ -14,7 +14,7 @@ echo " <br><a href=\"booked.php\"> View all booked tickets </a><br> ";
 echo " <br><a href=\"cancelled.php\"> View all cancelled tickets </a><br> ";
 
 ?>
-<br><a href="http://localhost/railway/index.htm">Go to Home Page!!! </a> You'll be Logged Out!!!
+<br><a href="index.htm">Go to Home Page!!! </a> You'll be Logged Out!!!
 </div>
 </body>
 </html>
